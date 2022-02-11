@@ -48,7 +48,7 @@ public class DiscordBot {
     }
 
     JDA createUser(){
-        JDABuilder jda = JDABuilder.createDefault("OTQxMjU5NDQ3OTQ1MjY1MTYy.YgTWLA.nJ7sP8CajXzGIfaNGAkwc_A03eM");
+        JDABuilder jda = JDABuilder.createDefault(System.getenv("TOKEN"));
         jda.addEventListeners(new Main(), new onChatMessage(), new onEditChatMessage());
         jda.setStatus(OnlineStatus.ONLINE);
         jda.setMemberCachePolicy(MemberCachePolicy.ONLINE);
