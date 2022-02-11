@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="bot" target="17.0.2" />
+      <module name="bot" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
