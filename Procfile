@@ -1,0 +1,1 @@
+worker: java -jar target qwertus.sus-1.0-SNAPSHOT.jar
